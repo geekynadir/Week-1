@@ -4,6 +4,8 @@ int main(){
 	printf("enter the range \n");
 	scanf("%d %d",&a, &n);
 	int i,j;
+	if(a==1)
+		print("1 is neither prime not composite");
 	for( i=a;i<=n;i++){
 		int count=0;
 		for( j=2;j<i;j++){
